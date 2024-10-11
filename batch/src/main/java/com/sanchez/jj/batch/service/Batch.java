@@ -9,7 +9,7 @@ public class Batch {
 
     private final WebClient webClient;
 
-    String baseUrl = "http://orqwebflux:8086"; // Asegúrate de que este sea el valor correcto
+    String baseUrl = "http://orqwebflux:8080"; // Asegúrate de que este sea el valor correcto
 
     public Batch(WebClient.Builder webClientBuilder) {
         System.out.println("Base URL: " + baseUrl);  // Verifica el valor de baseUrl
