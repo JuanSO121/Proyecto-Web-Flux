@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c89b2e7-2402-40f9-aba9-23b2bd3bba8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebHook/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHook/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../batch/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../batch/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrqWebFlux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OrqWebFlux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../batch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,15 +50,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sanch/OneDrive/Documentos/Taller3-JuanSanchez/service-configuration&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/sanch/OneDrive/Documentos/Taller3-JuanSanchez",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sanch\OneDrive\Documentos\Taller3-JuanSanchez\service-configuration" />

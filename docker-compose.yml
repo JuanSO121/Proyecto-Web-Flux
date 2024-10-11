@@ -2,6 +2,7 @@ services:
 
   config-server:
     image: config-server:latest
+    build: ./config-server/.
     container_name: config-server
     ports:
       - "8888:8888"
@@ -18,6 +19,7 @@ services:
 
   orqwebflux:
     image: orqwebflux:latest
+    build: ./OrqWebFlux/.
     container_name: orqwebflux
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
@@ -36,6 +38,7 @@ services:
 
   batch:
     image: batch:latest
+    build: ./batch/.
     container_name: batch
     ports:
       - "8084:8084"
@@ -51,6 +54,7 @@ services:
 
   api-one:
     image: api-one:latest
+    build: ./ResolveEnigmaAp/.
     container_name: api-one
     ports:
       - "8081:8081"
@@ -64,6 +68,7 @@ services:
 
   api-two:
     image: api-two:latest
+    build: ./ResolveEnigmaApTwo/.
     container_name: api-two
     ports:
       - "8082:8082"
@@ -77,6 +82,7 @@ services:
 
   api-three:
     image: api-three:latest
+    build: ./ResolveEnigmaApThree/.
     container_name: api-three
     ports:
       - "8083:8083"
@@ -90,6 +96,7 @@ services:
 
   webhook:
     image: webhook:latest
+    build: ./WebHook/.
     container_name: webhook
     ports:
       - "8085:8085"
