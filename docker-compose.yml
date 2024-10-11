@@ -1,15 +1,15 @@
 services:
 
   config-server:
-    build: ./ruta-al-directorio-del-proyecto-config-server
+    image: config-server:latest
     container_name: config-server
     ports:
       - "8888:8888"
     environment:
-      - GIT_URI=https://github.com/NotSamfa/service-configuration
-      - SPRING_CLOUD_CONFIG_SERVER_GIT_CLONE_ON_START=true
+      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
+
    
   orqwebflux:
     image: orqwebflux:latest
