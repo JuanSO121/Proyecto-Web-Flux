@@ -15,7 +15,6 @@ services:
     image: orqwebflux:latest
     container_name: orqwebflux
     environment:
-      - SPRING_PROFILES_ACTIVE=dev
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     ports:
       - "8080:8080"
@@ -37,7 +36,6 @@ services:
         condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
-      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
 
@@ -48,9 +46,8 @@ services:
       - "8081:8081"
     depends_on:
       - orqwebflux
-    environment:
+    environment:  
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
-      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
 
@@ -63,7 +60,6 @@ services:
       - orqwebflux
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
-      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
 
@@ -76,7 +72,6 @@ services:
       - orqwebflux
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
-      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
 
@@ -89,7 +84,6 @@ services:
       - orqwebflux
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
-      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network 
 
