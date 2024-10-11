@@ -7,9 +7,14 @@ services:
       - "8888:8888"
     environment:
       - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/JuanSO121/Proyecto-Web-Flux.git
-      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCHPATHS=service-configuration
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCH_PATHS=service-configuration
     networks:
       - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://config-server:8888/actuator/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
 
   orqwebflux:
     image: orqwebflux:latest
@@ -18,6 +23,9 @@ services:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     ports:
       - "8080:8080"
+    depends_on:
+      config-server:
+        condition: service_healthy
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://orqwebflux:8080/actuator/health || exit 1"]
       interval: 30s
@@ -34,6 +42,8 @@ services:
     depends_on:
       orqwebflux:
         condition: service_healthy
+      config-server:
+        condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
@@ -45,8 +55,11 @@ services:
     ports:
       - "8081:8081"
     depends_on:
-      - orqwebflux
-    environment:  
+      config-server:
+        condition: service_healthy
+      orqwebflux:
+        condition: service_healthy
+    environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
       - app-network
@@ -57,7 +70,10 @@ services:
     ports:
       - "8082:8082"
     depends_on:
-      - orqwebflux
+      config-server:
+        condition: service_healthy
+      orqwebflux:
+        condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
@@ -69,7 +85,10 @@ services:
     ports:
       - "8083:8083"
     depends_on:
-      - orqwebflux
+      config-server:
+        condition: service_healthy
+      orqwebflux:
+        condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
@@ -81,7 +100,10 @@ services:
     ports:
       - "8085:8085"
     depends_on:
-      - orqwebflux
+      config-server:
+        condition: service_healthy
+      orqwebflux:
+        condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
