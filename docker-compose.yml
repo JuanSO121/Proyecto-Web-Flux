@@ -6,8 +6,8 @@ services:
     ports:
       - "8888:8888"
     environment:
-      - GIT_URI=https://github.com/JuanSO121/Proyecto-Web-Flux.git
-      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCHPATHS=config-server
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/JuanSO121/Proyecto-Web-Flux.git
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCHPATHS=service-configuration
     networks:
       - app-network
 
@@ -18,9 +18,9 @@ services:
       - SPRING_PROFILES_ACTIVE=dev
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     ports:
-      - "8080:8080"
+      - "8086:8086"
     healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8080/actuator/health || exit 1"]
+      test: ["CMD-SHELL", "curl -f http://localhost:8086/actuator/health || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 5
@@ -35,9 +35,11 @@ services:
     depends_on:
       orqwebflux:
         condition: service_healthy
+    environment:
+      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
-
 
   api-one:
     image: api-one:latest
@@ -46,6 +48,9 @@ services:
       - "8081:8081"
     depends_on:
       - orqwebflux
+    environment:
+      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
 
@@ -56,6 +61,9 @@ services:
       - "8082:8082"
     depends_on:
       - orqwebflux
+    environment:
+      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network
 
@@ -66,9 +74,11 @@ services:
       - "8083:8083"
     depends_on:
       - orqwebflux
+    environment:
+      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - SPRING_PROFILES_ACTIVE=dev
     networks:
-      - app-network  
-
+      - app-network
 
   webhook:
     image: webhook:latest
@@ -77,6 +87,9 @@ services:
       - "8085:8085"
     depends_on:
       - orqwebflux
+    environment:
+      - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+      - SPRING_PROFILES_ACTIVE=dev
     networks:
       - app-network 
 

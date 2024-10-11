@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c89b2e7-2402-40f9-aba9-23b2bd3bba8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrqWebFlux-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OrqWebFlux-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResolveEnigmaAp-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ResolveEnigmaAp-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResolveEnigmaApThree-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ResolveEnigmaApThree-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResolveEnigmaApTwo-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ResolveEnigmaApTwo-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebHook-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebHook-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/batch-dev.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
