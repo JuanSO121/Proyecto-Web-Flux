@@ -1,0 +1,82 @@
+services:
+
+  config-server:
+    build: ./ruta-al-directorio-del-proyecto-config-server
+    container_name: config-server
+    ports:
+      - "8888:8888"
+    environment:
+      - GIT_URI=https://github.com/NotSamfa/service-configuration
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_CLONE_ON_START=true
+    networks:
+      - app-network
+   
+  orqwebflux:
+    image: orqwebflux:latest
+    container_name: orqwebflux
+    ports:
+      - "8086:8086"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8086/actuator/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - app-network
+
+  batch:
+    image: batch:latest
+    container_name: batch
+    ports:
+      - "8084:8084"
+    depends_on:
+      orqwebflux:
+        condition: service_healthy
+    networks:
+      - app-network
+
+
+  api-one:
+    image: api-one:latest
+    container_name: api-one
+    ports:
+      - "8081:8081"
+    depends_on:
+      - orqwebflux
+    networks:
+      - app-network
+
+  api-two:
+    image: api-two:latest
+    container_name: api-two
+    ports:
+      - "8082:8082"
+    depends_on:
+      - orqwebflux
+    networks:
+      - app-network
+
+  api-three:
+    image: api-three:latest
+    container_name: api-three
+    ports:
+      - "8083:8083"
+    depends_on:
+      - orqwebflux
+    networks:
+      - app-network  
+
+
+  webhook:
+    image: webhook:latest
+    container_name: webhook
+    ports:
+      - "8085:8085"
+    depends_on:
+      - orqwebflux
+    networks:
+      - app-network 
+
+networks:
+  app-network:
+    driver: bridge
