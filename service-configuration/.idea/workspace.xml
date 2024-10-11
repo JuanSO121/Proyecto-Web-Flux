@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c89b2e7-2402-40f9-aba9-23b2bd3bba8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/resolve-enigma-api-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/resolve-enigma-api-Three-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/resolve-enigma-api-Two-1.0.0.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebHook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHook/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../batch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../batch/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7c89b2e7-2402-40f9-aba9-23b2bd3bba8b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
