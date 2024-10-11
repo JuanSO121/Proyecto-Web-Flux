@@ -7,7 +7,7 @@ services:
       - "8888:8888"
     environment:
       - SPRING_CLOUD_CONFIG_SERVER_GIT_URI=https://github.com/JuanSO121/Proyecto-Web-Flux.git
-      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCH_PATHS=service-configuration
+      - SPRING_CLOUD_CONFIG_SERVER_GIT_SEARCHPATHS=service-configuration
     networks:
       - app-network
     healthcheck:
@@ -57,8 +57,6 @@ services:
     depends_on:
       config-server:
         condition: service_healthy
-      orqwebflux:
-        condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
@@ -72,8 +70,6 @@ services:
     depends_on:
       config-server:
         condition: service_healthy
-      orqwebflux:
-        condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888
     networks:
@@ -86,8 +82,6 @@ services:
       - "8083:8083"
     depends_on:
       config-server:
-        condition: service_healthy
-      orqwebflux:
         condition: service_healthy
     environment:
       - SPRING_CLOUD_CONFIG_URI=http://config-server:8888

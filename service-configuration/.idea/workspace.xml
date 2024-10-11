@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c89b2e7-2402-40f9-aba9-23b2bd3bba8b" name="Changes" comment="" />
+    <list default="true" id="7c89b2e7-2402-40f9-aba9-23b2bd3bba8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../OrqWebFlux/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaAp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaAp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApThree/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResolveEnigmaApTwo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHook/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../batch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../batch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrqWebFlux-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrqWebFlux.properties" beforeDir="false" afterPath="$PROJECT_DIR$/OrqWebFlux.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResolveEnigmaAp-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResolveEnigmaAp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ResolveEnigmaAp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResolveEnigmaApThree-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResolveEnigmaApThree.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ResolveEnigmaApThree.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResolveEnigmaApTwo-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResolveEnigmaApTwo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ResolveEnigmaApTwo.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebHook-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebHook.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WebHook.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch.properties" beforeDir="false" afterPath="$PROJECT_DIR$/batch.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
